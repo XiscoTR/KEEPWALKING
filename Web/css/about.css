@@ -1,0 +1,76 @@
+/* CSS about */
+body {
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.nosotros {
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(to bottom, rgb(238, 139, 49) 0%, rgba(197, 168, 4, 0.76) 100%);
+    border-bottom: 3px solid black;
+}
+.nosotros h1 {
+    font-size:36px;
+    font-family: "NotoSans", sans-serif;
+}
+.nosotros p {
+    font-size: 17px;
+    font-family: "NotoSerif", sans-serif;
+}
+.columna {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    font-family: "NotoSans", sans-serif;
+}
+.tarjeta {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+.newsletter {
+    padding: 20px 10px 10px;
+    background:#35424a;
+    color:#ffffff;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+.contenedor2 {
+    padding: 0 16px;
+}
+.contenedor2::after, .fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.titulo {
+    color: grey;
+}
+.boton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.boton:hover {
+    background-color: #555;
+}
+@media screen and (max-width: 650px) {
+    .columna {
+        width: 100%;
+        display: block;
+    }
+}

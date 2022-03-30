@@ -1,0 +1,36 @@
+/* CSS header */
+header {
+    margin:0;
+    padding: 32px 0;
+    color: black;
+    background-color: lightyellow;
+    border-bottom: brown 3px solid;
+}
+header h1 {
+    float:left;
+    font-size: 38px;
+    font-weight: bold;
+}
+header nav {
+    float: right;
+    padding-top: 10px;
+}
+li  {
+    display:inline;
+    padding-right: 25px;
+}
+li a {
+    font-size: 22px;
+    text-decoration: none;
+}
+.menu a{
+    color: black;
+    font-size: 30px;
+}
+
+a:hover{
+    font-size: 35px;
+    cursor:pointer;
+    text-shadow: 2px 2px 5px #000000;
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+}

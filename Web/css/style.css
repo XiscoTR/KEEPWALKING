@@ -1,0 +1,130 @@
+/* CSS General */
+@font-face {
+  font-family: "NotoSans";
+  src: url('../fonts/NotoSans-Bold.ttf')  format('ttf');
+  src: url('../fonts/NotoSans-BoldItalic.ttf')  format('ttf');
+  src: url('../fonts/NotoSans-Italic.ttf')  format('ttf');
+  src: url('../fonts/NotoSans-Regular.ttf')  format('ttf');
+}
+@font-face {
+  font-family: "NotoSerif";
+  src: url('../fonts/NotoSerif-Regular.ttf')  format('ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.contenedor {
+  width: 80%;
+  margin:auto;
+  overflow:hidden;
+  font-family: 'NotoSans', serif;
+  font-weight: bold;
+}
+#nombre {
+  color: #01606D;
+}
+.video{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+input{
+  width: 250px;
+  border: 0;
+  padding: 10px 0;
+}
+.tienda{
+  width: 1000px;
+  height: 500px;
+}
+#principal {
+  background-image:url(../imagenes/portada.png);
+}
+#principal2 {
+  background-image:url(../imagenes/tienda.png);
+}
+#quehacemos {
+  margin-top: 63px;
+  padding: 25px 10px;
+  float: right;
+  width: 25%;
+  color: #ffffff;
+  background-color: #35424a;
+  border: 7px solid black;
+}
+#quehacemos h3 {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px 0;
+}
+#quehacemos label[for="id_nom"],
+label[for="id_email"]{
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+}
+#quehacemos input[type="text"],
+input[type="email"]{
+  background-color: white;
+  display:table;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 15px;
+  font-weight: 200;
+  font-size: 15pt;
+  cursor:pointer;
+}
+#quehacemos input[type="submit"]{
+  width: 100px;
+  background: white;
+  border: 3px solid black;
+  margin: auto;
+  position:relative;
+  top: 10px;
+  left: 130px;
+  border-radius: 20px;
+  cursor:pointer;
+}
+#quehacemos input[type="submit"]:hover{
+  background: black;
+  color: white;
+  box-shadow: 0 0 30px 10px white;
+  cursor:pointer;
+}
+.servicios {
+  float:left;
+  width: 65%;
+  padding:20px 0;
+}
+.servicios h2 {
+  font-size: 30px;
+  padding: 10px 0;
+  color: white;
+}
+.serv-list {
+  margin-bottom: 5px;
+  background:#F0FFFF;
+  filter: opacity(85%) drop-shadow(8px 8px 10px gray);
+  padding: 20px;
+  border: 5px solid black;
+}
+.serv-list h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+.serv-list p {
+  font-size: 17px;
+  padding: 7px 0;
+  line-height: 24px;
+  font-weight: normal;
+}
+.contenedor img {
+  border: 5px solid black;
+}

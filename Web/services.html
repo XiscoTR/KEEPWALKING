@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Xisco" content="Services">
+  <title> Servicios </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/calendar.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+  <header>
+    <div class="contenedor">
+      <h1><span id="nombre">Keep Walking</span> Servicios</h1>
+      <nav>
+        <ul>
+          <li class="menu"><a href="index.html">Inicio</a></li>
+          <li class="menu"><a href="about.html">Sobre Nosotros</a></li>
+          <li class="menu"><a href="services.html">Servicios</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="principal">
+    <div class="contenedor">
+      <article class="servicios">
+        <h2>Servicios</h2>
+        <section class="serv-list">
+          <h3>Procedencia de la Ropa</h3>
+          <p>La boutique ofrecerá diversas prendas de origen y estilo oriental, abordando looks de distintos países
+            como China, Tailandia, Corea y principalmente Japón.</p>
+        </section>
+
+        <section class="serv-list">
+          <h3>Renting</h3>
+          <p>Ofrecemos un servicio especial por el cual se pueden alquilar diversas prenas de ropa para
+            ocasiones especiales, trajes, chauetas, zapaos, corbatas y mucho más.</p>
+        </section>
+
+        <section class="serv-list">
+          <h3>Devoluciones</h3>
+          <p>Para poder realizar un cambio o devolución de cualquier compra hecha en una de nuestras tiendas,
+            es imprescindible la presentación del ticket de compra en papel. También puedes mostrarlo a través de la
+            APP de Keep Walking o tu QR (solo disponible para devoluciones).
+            Si has realizado tu compra a través del IPOD de alguna de nuestras tiendas, consulta la información de
+            devolución en la sección de IPOD.</p>
+        </section>
+        <h2>Paises en los cuales ofrecemos nuestros Servicios</h2>
+        <img src="./imagenes/Paises.png" alt="Imagen">
+      </article>
+
+      <aside id="quehacemos">
+        <h3>Suscribete a nuestro Quote</h3>
+        <form method="get" novalidate onsubmit="return validar();">
+				<label for="id_nom">Nombre i Apellidos</label>
+        <input
+               type="text"
+               id="id_nom"
+               name="dades_nom"
+               placeholder="Carlos Torres Ruiz"
+               title="Minim el nom i un llinatege"/><br/>
+
+        <label for="id_email">Correo electrònico</label>
+        <input
+               type="email"
+               id="id_email"
+               name="dades_email"
+               placeholder="carlos.torres@hotmail.com"
+               title="Format del Correu"/><br/>
+
+        <input type="submit" value="Enviar" title="Clicar para enviar el Formulario"/>
+      </form>
+    </aside>
+      <div class="calendar">
+        <div class="month">
+          <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>August<br><span style="font-size:18px">2022</span></li>
+          </ul>
+        </div>
+
+        <ul class="weekdays">
+          <li>LU</li>
+          <li>MA</li>
+          <li>MI</li>
+          <li>JU</li>
+          <li>VI</li>
+          <li>SA</li>
+          <li>DO</li>
+        </ul>
+
+        <ul class="days">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li><span class="active">10</span></li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+          <li>31</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div style="clear:both"></div>
+
+  <footer>
+    <div class="row primary">
+      <div class="column about">
+
+        <h3>Aviso Legal</h3>
+        <p>
+          Es requisito necesario para la adquisición de los productos que se ofrecen en este
+          sitio, que lea y acepte los siguientes Términos y Condiciones que a continuación se
+          redactan.
+        </p>
+      </div>
+
+      <div class="column links">
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <a>F.A.Q</a>
+          </li>
+          <li>
+            <a>Politica de Cookies</a>
+          </li>
+          <li>
+            <a>Terminos de Servicio</a>
+          </li>
+          <li>
+            <a>Soporte</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="column links">
+        <h3>Partners</h3>
+        <ul>
+          <li>
+            <a>Maik</a>
+          </li>
+          <li>
+            <a>Seur</a>
+          </li>
+          <li>
+            <a>Airway</a>
+          </li>
+          <li>
+            <a>FarDrop</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="column subscribe">
+        <h3>Newsletter</h3>
+        <div>
+          <label>
+            <input type="email" placeholder="Introduce tu email" />
+          </label>
+          <button>Suscribete</button>
+        </div>
+      </div>
+
+    </div>
+    <p>Copyright &copy; 2022 Keep Walking</p>
+  </footer>
+
+<script type="text/javascript" src="./js/validar.js"></script>
+</body>
+</html>
